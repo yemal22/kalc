@@ -8,43 +8,43 @@
 </head>
 <body class="flex items-center justify-center h-screen m-0"> 
     <div class="flex items-center h-5/6 kalc-container bg-white rounded-md shadow-lg shadow-slate-400">
-        <div class="bg-cyan-400 flex items-center justify-center w-1/3 h-full">
+        <div class="bg-cyan-400 flex items-center justify-center w-1/3 h-full font-bold size-4">
             kalculator
         </div>
         <div class="bg-red-200 flex-1 flex-col flex gap-3 items-center justify-between h-full p-5">
-            <input type="text" class="flex bg-amber-400 w-full kalc-screen" value="0" disabled>
-            <div class="bg-amber-400 w-full kalc-button-container">
-                <div class="bg-green-500 kalc-button kalc-clear" id="AC">AC</div>
-                <div class="bg-green-500 kalc-button" id="(">(</div>
-                <div class="bg-green-500 kalc-button" id=")">)</div>
-                <div class="bg-green-500 kalc-button kalc-operator" id="/">/</div>
+            <input type="text" class="flex bg-red-100 rounded-lg shadow-slate-500 shadow-md p-3 font-semibold w-full kalc-screen" value="0" disabled>
+            <div class=" w-full kalc-button-container">
+                <div class="bg-slate-200 rounded-xl shadow-lg hover:bg-slate-300 hover:scale-110 kalc-button kalc-clear" id="AC">AC</div>
+                <div class="bg-slate-200 rounded-xl shadow-lg hover:bg-slate-300 kalc-button" id="(">(</div>
+                <div class="bg-slate-200 rounded-xl shadow-lg hover:bg-slate-300 kalc-button" id=")">)</div>
+                <div class="bg-slate-200 rounded-xl  shadow-lg hover:bg-slate-300 kalc-button kalc-operator" id="/">/</div>
             </div>
-            <div class="bg-amber-400 w-full kalc-button-container">
-                <div class="bg-green-500 kalc-button kalc-number" id="7">7</div>
-                <div class="bg-green-500 kalc-button kalc-number" id="8">8</div>
-                <div class="bg-green-500 kalc-button kalc-number" id="9">9</div>
-                <div class="bg-green-500 kalc-button kalc-operator" id="*">*</div>
+            <div class=" w-full kalc-button-container">
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="7">7</div>
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="8">8</div>
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="9">9</div>
+                <div class="bg-slate-200 hover:bg-slate-300 shadow-lg rounded-xl kalc-button kalc-operator" id="*">*</div>
             </div>
-            <div class="bg-amber-400 w-full kalc-button-container">
-                <div class="bg-green-500 kalc-button kalc-number" id="4">4</div>
-                <div class="bg-green-500 kalc-button kalc-number" id="5">5</div>
-                <div class="bg-green-500 kalc-button kalc-number" id="6">6</div>
-                <div class="bg-green-500 kalc-button kalc-operator" id="-">-</div>
+            <div class=" w-full kalc-button-container">
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="4">4</div>
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="5">5</div>
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="6">6</div>
+                <div class="bg-slate-200 hover:bg-slate-300 shadow-lg rounded-xl kalc-button kalc-operator" id="-">-</div>
             </div>
-            <div class="bg-amber-400 w-full kalc-button-container">
-                <div class="bg-green-500 kalc-button kalc-number" id="1">1</div>
-                <div class="bg-green-500 kalc-button kalc-number" id="2">2</div>
-                <div class="bg-green-500 kalc-button kalc-number" id="3">3</div>
-                <div class="bg-green-500 kalc-button kalc-operator" id="+">+</div>
+            <div class=" w-full kalc-button-container">
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="1">1</div>
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="2">2</div>
+                <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="3">3</div>
+                <div class="bg-slate-200 hover:bg-slate-300 shadow-lg rounded-xl kalc-button kalc-operator" id="+">+</div>
             </div>
-            <div class="bg-amber-400 w-full kalc-button-container">
+            <div class=" w-full kalc-button-container">
                 <div class="flex gap-3 flex-1 h-full">
-                    <div class="bg-green-500 kalc-button kalc-number" id="0">0</div>
-                    <div class="bg-green-500 kalc-button kalc-dot">.</div>
+                    <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-number" id="0">0</div>
+                    <div class="bg-slate-100 hover:bg-slate-200 shadow-lg rounded-xl kalc-button kalc-dot">.</div>
                 </div>
                 <div class="flex gap-3 flex-1 h-full">
-                    <div class="bg-green-500 kalc-button kalc-delete">CE</div>
-                    <div class="bg-green-500 kalc-button kalc-equal">=</div>
+                    <div class="bg-slate-200 hover:bg-slate-300 rounded-xl shadow-lg kalc-button kalc-delete">CE</div>
+                    <div class="bg-green-300 hover:bg-green-400 rounded-xl shadow-lg kalc-button kalc-equal">=</div>
                 </div>
             </div>
         </div>

@@ -9,11 +9,6 @@
 
 .kalc-screen{
     flex: 5;
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0);
     direction: rtl;
 }
 
@@ -33,28 +28,4 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    background-color: #f0f0f0;
-    color: #333;
-    font-size: 24px;
-    transition: background-color 0.2s ease-in-out;
-    }
-    .kalc-button:hover{
-        background-color: #ccc;
-        }
-        .kalc-button:active{
-            background-color: #aaa;
-            }
-            .kalc-button:disabled{
-                background-color: #ccc;
-                color: #666;
-                cursor: not-allowed;
-                }
-                .kalc-button:disabled:hover{
-                    background-color: #ccc;
-                    }
-                    .kalc-button:disabled:active{
-                        background-color: #ccc;
-                        }
-                        
+}
